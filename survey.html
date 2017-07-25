@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+</head>
+<body>
+  <div>
+    <form action="result.php" method="post">
+      <label>Your Name: <input type="text" name="name" placeholder="Name"></label>
+      <label>Dojo Location:</label>
+      <select name="location">
+        <option value="Mountain View">Mountain View</option>
+        <option value="Seattle">Seattle</option>
+        <option value="Online">Online</option>
+      </select>
+      <label>Favorite Language:</label>
+      <select name="language">
+        <option value="Javascript">Javascript</option>
+        <option value="Ruby">Ruby</option>
+        <option value="PHP">PHP</option>
+      </select>
+      <label>Comment (optional):</label>
+      <textarea name="description"></textarea>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html>
